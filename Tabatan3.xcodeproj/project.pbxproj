@@ -3,18 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1704293C25710B1800E72C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704293B25710B1800E72C98 /* AppDelegate.swift */; };
 		1704293E25710B1800E72C98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704293D25710B1800E72C98 /* SceneDelegate.swift */; };
-		1704294025710B1800E72C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704293F25710B1800E72C98 /* ViewController.swift */; };
 		1704294325710B1800E72C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1704294125710B1800E72C98 /* Main.storyboard */; };
 		1704294525710B1900E72C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1704294425710B1900E72C98 /* Assets.xcassets */; };
 		1704294825710B1900E72C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1704294625710B1900E72C98 /* LaunchScreen.storyboard */; };
 		1704295325710B1900E72C98 /* Tabatan3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704295225710B1900E72C98 /* Tabatan3Tests.swift */; };
 		1704295E25710B1900E72C98 /* Tabatan3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704295D25710B1900E72C98 /* Tabatan3UITests.swift */; };
+		1704296C25710B4300E72C98 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1704296B25710B4300E72C98 /* GoogleService-Info.plist */; };
+		1704296E25710C4C00E72C98 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704296D25710C4C00E72C98 /* TimerViewController.swift */; };
+		1704297025710C9200E72C98 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704296F25710C9200E72C98 /* PlayViewController.swift */; };
+		1704297325710CD700E72C98 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704297225710CD700E72C98 /* PostViewController.swift */; };
+		1704297525710D0400E72C98 /* TimeLineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704297425710D0400E72C98 /* TimeLineViewController.swift */; };
+		1704297925710E8500E72C98 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1704297825710E8500E72C98 /* Comment.swift */; };
+		170429B825712C5F00E72C98 /* kintore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170429B725712C5F00E72C98 /* kintore.jpg */; };
+		170429BA25712D6000E72C98 /* kyuukei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170429B925712D6000E72C98 /* kyuukei.jpg */; };
+		170429BC25712DDC00E72C98 /* zyunbi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 170429BB25712DDC00E72C98 /* zyunbi.jpg */; };
+		170429C1257133FA00E72C98 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170429C0257133FA00E72C98 /* PageViewController.swift */; };
+		170429C32571347000E72C98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170429C22571347000E72C98 /* ViewController.swift */; };
+		38D36C4D54791B464D84BA55 /* Pods_Tabatan3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBE536C40632F76D4DFFE91 /* Pods_Tabatan3Tests.framework */; };
+		F55E6BF78FE7E16CDB72593E /* Pods_Tabatan3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0B41D0B035AB60C94898ED /* Pods_Tabatan3.framework */; };
+		F822BDC0B38A8C9D465BFEC1 /* Pods_Tabatan3_Tabatan3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A3567A42B0C38FB573DAE5 /* Pods_Tabatan3_Tabatan3UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		012820039EBA0934E11D20B6 /* Pods-Tabatan3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatan3.debug.xcconfig"; path = "Target Support Files/Pods-Tabatan3/Pods-Tabatan3.debug.xcconfig"; sourceTree = "<group>"; };
+		0FBE536C40632F76D4DFFE91 /* Pods_Tabatan3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabatan3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13A3567A42B0C38FB573DAE5 /* Pods_Tabatan3_Tabatan3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabatan3_Tabatan3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1704293825710B1800E72C98 /* Tabatan3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tabatan3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1704293B25710B1800E72C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1704293D25710B1800E72C98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1704293F25710B1800E72C98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1704294225710B1800E72C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1704294425710B1900E72C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1704294725710B1900E72C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,23 @@
 		1704295925710B1900E72C98 /* Tabatan3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tabatan3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1704295D25710B1900E72C98 /* Tabatan3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabatan3UITests.swift; sourceTree = "<group>"; };
 		1704295F25710B1900E72C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1704296B25710B4300E72C98 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1704296D25710C4C00E72C98 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		1704296F25710C9200E72C98 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		1704297225710CD700E72C98 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		1704297425710D0400E72C98 /* TimeLineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineViewController.swift; sourceTree = "<group>"; };
+		1704297825710E8500E72C98 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		170429B725712C5F00E72C98 /* kintore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kintore.jpg; sourceTree = "<group>"; };
+		170429B925712D6000E72C98 /* kyuukei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kyuukei.jpg; sourceTree = "<group>"; };
+		170429BB25712DDC00E72C98 /* zyunbi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zyunbi.jpg; sourceTree = "<group>"; };
+		170429C0257133FA00E72C98 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		170429C22571347000E72C98 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19DFB06F6861FB8A8E9EE42F /* Pods-Tabatan3-Tabatan3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatan3-Tabatan3UITests.release.xcconfig"; path = "Target Support Files/Pods-Tabatan3-Tabatan3UITests/Pods-Tabatan3-Tabatan3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		483B44A9B9E662044BF6B4CD /* Pods-Tabatan3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatan3Tests.release.xcconfig"; path = "Target Support Files/Pods-Tabatan3Tests/Pods-Tabatan3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		50D4D36B04238B775020A94B /* Pods-Tabatan3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatan3.release.xcconfig"; path = "Target Support Files/Pods-Tabatan3/Pods-Tabatan3.release.xcconfig"; sourceTree = "<group>"; };
+		9925C84A073CF5AEDD3C4A92 /* Pods-Tabatan3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatan3Tests.debug.xcconfig"; path = "Target Support Files/Pods-Tabatan3Tests/Pods-Tabatan3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0220E86C533AC7B7D1E1BB1 /* Pods-Tabatan3-Tabatan3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tabatan3-Tabatan3UITests.debug.xcconfig"; path = "Target Support Files/Pods-Tabatan3-Tabatan3UITests/Pods-Tabatan3-Tabatan3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DE0B41D0B035AB60C94898ED /* Pods_Tabatan3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tabatan3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F55E6BF78FE7E16CDB72593E /* Pods_Tabatan3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38D36C4D54791B464D84BA55 /* Pods_Tabatan3Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F822BDC0B38A8C9D465BFEC1 /* Pods_Tabatan3_Tabatan3UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +118,8 @@
 				1704295125710B1900E72C98 /* Tabatan3Tests */,
 				1704295C25710B1900E72C98 /* Tabatan3UITests */,
 				1704293925710B1800E72C98 /* Products */,
+				244ABDEA0547C66784F0B7B9 /* Pods */,
+				28984B8A0679B6119527B0F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +138,19 @@
 			children = (
 				1704293B25710B1800E72C98 /* AppDelegate.swift */,
 				1704293D25710B1800E72C98 /* SceneDelegate.swift */,
-				1704293F25710B1800E72C98 /* ViewController.swift */,
 				1704294125710B1800E72C98 /* Main.storyboard */,
+				170429C22571347000E72C98 /* ViewController.swift */,
+				1704296D25710C4C00E72C98 /* TimerViewController.swift */,
+				1704296F25710C9200E72C98 /* PlayViewController.swift */,
+				1704297225710CD700E72C98 /* PostViewController.swift */,
+				1704297425710D0400E72C98 /* TimeLineViewController.swift */,
+				1704297825710E8500E72C98 /* Comment.swift */,
+				170429C0257133FA00E72C98 /* PageViewController.swift */,
 				1704294425710B1900E72C98 /* Assets.xcassets */,
 				1704294625710B1900E72C98 /* LaunchScreen.storyboard */,
 				1704294925710B1900E72C98 /* Info.plist */,
+				1704296B25710B4300E72C98 /* GoogleService-Info.plist */,
+				170429B625712C3F00E72C98 /* Photo */,
 			);
 			path = Tabatan3;
 			sourceTree = "<group>";
@@ -128,6 +173,39 @@
 			path = Tabatan3UITests;
 			sourceTree = "<group>";
 		};
+		170429B625712C3F00E72C98 /* Photo */ = {
+			isa = PBXGroup;
+			children = (
+				170429B725712C5F00E72C98 /* kintore.jpg */,
+				170429B925712D6000E72C98 /* kyuukei.jpg */,
+				170429BB25712DDC00E72C98 /* zyunbi.jpg */,
+			);
+			name = Photo;
+			sourceTree = "<group>";
+		};
+		244ABDEA0547C66784F0B7B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				012820039EBA0934E11D20B6 /* Pods-Tabatan3.debug.xcconfig */,
+				50D4D36B04238B775020A94B /* Pods-Tabatan3.release.xcconfig */,
+				B0220E86C533AC7B7D1E1BB1 /* Pods-Tabatan3-Tabatan3UITests.debug.xcconfig */,
+				19DFB06F6861FB8A8E9EE42F /* Pods-Tabatan3-Tabatan3UITests.release.xcconfig */,
+				9925C84A073CF5AEDD3C4A92 /* Pods-Tabatan3Tests.debug.xcconfig */,
+				483B44A9B9E662044BF6B4CD /* Pods-Tabatan3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		28984B8A0679B6119527B0F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE0B41D0B035AB60C94898ED /* Pods_Tabatan3.framework */,
+				13A3567A42B0C38FB573DAE5 /* Pods_Tabatan3_Tabatan3UITests.framework */,
+				0FBE536C40632F76D4DFFE91 /* Pods_Tabatan3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1704296225710B1900E72C98 /* Build configuration list for PBXNativeTarget "Tabatan3" */;
 			buildPhases = (
+				FA4E2D99D22C5F03758B8BCA /* [CP] Check Pods Manifest.lock */,
 				1704293425710B1800E72C98 /* Sources */,
 				1704293525710B1800E72C98 /* Frameworks */,
 				1704293625710B1800E72C98 /* Resources */,
+				036C44F6B3A0FB2B42D7845E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +232,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1704296525710B1900E72C98 /* Build configuration list for PBXNativeTarget "Tabatan3Tests" */;
 			buildPhases = (
+				49C51DDD0BC12CF7542CBB0D /* [CP] Check Pods Manifest.lock */,
 				1704294A25710B1900E72C98 /* Sources */,
 				1704294B25710B1900E72C98 /* Frameworks */,
 				1704294C25710B1900E72C98 /* Resources */,
@@ -170,9 +251,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1704296825710B1900E72C98 /* Build configuration list for PBXNativeTarget "Tabatan3UITests" */;
 			buildPhases = (
+				7E0A695956C7A9B294A80E4F /* [CP] Check Pods Manifest.lock */,
 				1704295525710B1900E72C98 /* Sources */,
 				1704295625710B1900E72C98 /* Frameworks */,
 				1704295725710B1900E72C98 /* Resources */,
+				9265671C9CB1FD057F994F03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +315,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				170429BC25712DDC00E72C98 /* zyunbi.jpg in Resources */,
 				1704294825710B1900E72C98 /* LaunchScreen.storyboard in Resources */,
+				170429BA25712D6000E72C98 /* kyuukei.jpg in Resources */,
+				1704296C25710B4300E72C98 /* GoogleService-Info.plist in Resources */,
 				1704294525710B1900E72C98 /* Assets.xcassets in Resources */,
+				170429B825712C5F00E72C98 /* kintore.jpg in Resources */,
 				1704294325710B1800E72C98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +341,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		036C44F6B3A0FB2B42D7845E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tabatan3/Pods-Tabatan3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tabatan3/Pods-Tabatan3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tabatan3/Pods-Tabatan3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C51DDD0BC12CF7542CBB0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabatan3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E0A695956C7A9B294A80E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabatan3-Tabatan3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9265671C9CB1FD057F994F03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tabatan3-Tabatan3UITests/Pods-Tabatan3-Tabatan3UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tabatan3-Tabatan3UITests/Pods-Tabatan3-Tabatan3UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tabatan3-Tabatan3UITests/Pods-Tabatan3-Tabatan3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA4E2D99D22C5F03758B8BCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tabatan3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1704293425710B1800E72C98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1704294025710B1800E72C98 /* ViewController.swift in Sources */,
+				1704297325710CD700E72C98 /* PostViewController.swift in Sources */,
+				1704296E25710C4C00E72C98 /* TimerViewController.swift in Sources */,
+				1704297525710D0400E72C98 /* TimeLineViewController.swift in Sources */,
+				170429C32571347000E72C98 /* ViewController.swift in Sources */,
+				1704297925710E8500E72C98 /* Comment.swift in Sources */,
+				1704297025710C9200E72C98 /* PlayViewController.swift in Sources */,
 				1704293C25710B1800E72C98 /* AppDelegate.swift in Sources */,
 				1704293E25710B1800E72C98 /* SceneDelegate.swift in Sources */,
+				170429C1257133FA00E72C98 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +628,7 @@
 		};
 		1704296325710B1900E72C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012820039EBA0934E11D20B6 /* Pods-Tabatan3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +646,7 @@
 		};
 		1704296425710B1900E72C98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D4D36B04238B775020A94B /* Pods-Tabatan3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +664,7 @@
 		};
 		1704296625710B1900E72C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9925C84A073CF5AEDD3C4A92 /* Pods-Tabatan3Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +686,7 @@
 		};
 		1704296725710B1900E72C98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483B44A9B9E662044BF6B4CD /* Pods-Tabatan3Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +708,7 @@
 		};
 		1704296925710B1900E72C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0220E86C533AC7B7D1E1BB1 /* Pods-Tabatan3-Tabatan3UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +728,7 @@
 		};
 		1704296A25710B1900E72C98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19DFB06F6861FB8A8E9EE42F /* Pods-Tabatan3-Tabatan3UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
